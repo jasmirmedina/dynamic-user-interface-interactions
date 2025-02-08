@@ -1,5 +1,5 @@
 {
-  "name": "webpack-template",
+  "name": "dynamic-user-interface-interactions",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasmirmedina/webpack-template.git"
+    "url": "git+https://github.com/jasmirmedina/dynamic-user-interface-interactions.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jasmirmedina/webpack-template/issues"
+    "url": "https://github.com/jasmirmedina/dynamic-user-interface-interactions/issues"
   },
-  "homepage": "https://github.com/jasmirmedina/webpack-template#readme",
+  "homepage": "https://github.com/jasmirmedina/dynamic-user-interface-interactions#readme",
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
