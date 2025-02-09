@@ -42,10 +42,10 @@ const handleThemeSelection = (event) => {
   }
 };
 
-const initializeDropdown = () => {
+const handleDropdown = () => {
   dropdownToggleBtn.addEventListener("click", toggleDropdown);
   window.addEventListener("click", closeDropdownOnClickOutside);
   dropdownWidget.addEventListener("click", handleThemeSelection);
 };
 
-export default initializeDropdown;
+export default handleDropdown;
