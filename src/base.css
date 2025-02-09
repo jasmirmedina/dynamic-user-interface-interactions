@@ -9,6 +9,7 @@
   --text: #f0f0f0;
   --subtext: #a5a5a5;
   --hover: rgba(71, 71, 71, 0.2);
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 :root.light {
@@ -17,6 +18,7 @@
   --text: #ffffff;
   --subtext: #a5a5a5;
   --hover: rgba(71, 71, 71, 0.4);
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 :root.mocha {
@@ -25,6 +27,7 @@
   --text: #cdd6f4;
   --subtext: #a6adc8;
   --hover: rgb(49, 50, 68, 0.4);
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 body {
