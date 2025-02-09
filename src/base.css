@@ -1,1 +1,37 @@
 @import url(minireset.css);
+
+@import url(./styles/navbar.css);
+@import url(./styles/main.css);
+
+:root.dark {
+  --primary: #161616;
+  --secondary: #202020;
+  --text: #f0f0f0;
+  --subtext: #a5a5a5;
+  --hover: rgba(71, 71, 71, 0.2);
+}
+
+:root.light {
+  --primary: #ffffff;
+  --secondary: #000000;
+  --text: #ffffff;
+  --subtext: #a5a5a5;
+  --hover: rgba(71, 71, 71, 0.4);
+}
+
+:root.mocha {
+  --primary: #11111b;
+  --secondary: #181825;
+  --text: #cdd6f4;
+  --subtext: #a6adc8;
+  --hover: rgb(49, 50, 68, 0.4);
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  font-family: system-ui;
+  background-color: var(--primary);
+  color: var(--text);
+}
